@@ -1,0 +1,106 @@
+# ===================================
+# ⚙️ Node.js / Playwright base setup
+# ===================================
+
+# Dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# ===================================
+# 🧪 Playwright specific
+# ===================================
+
+# Test results and reports
+test-results/
+playwright-report/
+blob-report/
+trace.zip
+*.trace.zip
+*.trace
+*.png
+*.jpg
+*.mp4
+*.webm
+
+# Coverage
+coverage/
+*.lcov
+
+# Artifacts from test attachments
+*.log
+*.json
+*.tmp
+
+# ===================================
+# 💻 Editor & System files
+# ===================================
+
+# macOS
+.DS_Store
+
+# VSCode settings
+.vscode/
+.history/
+*.code-workspace
+*.md
+!README.md
+
+# JetBrains IDEs (WebStorm, IntelliJ)
+.idea/
+*.iml
+
+# ===================================
+# 🔧 Build / Output folders (if used)
+# ===================================
+
+dist/
+build/
+out/
+tmp/
+.cache/
+lib/
+
+# ===================================
+# 🧰 Miscellaneous
+# ===================================
+
+# Package locks (optional – uncomment if you want to exclude)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ===================================
+# 🐳 Docker / CI
+# ===================================
+
+docker-compose.override.yml
+*.pid
+*.seed
+*.bak
+
+# ===================================
+# 📦 OS-specific
+# ===================================
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===================================
+# 🧪 Optional (for local configs)
+# ===================================
+
+# Ignore local configs or credentials
+config.local.json
