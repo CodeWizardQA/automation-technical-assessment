@@ -29,6 +29,5 @@ export abstract class BasePage {
   
   async waitForClickable(locator: Locator, timeout: number = 10000): Promise<void> {
     await locator.waitFor({ state: 'visible', timeout });
-    await locator.waitFor({ state: 'enabled', timeout });
   }
 }
